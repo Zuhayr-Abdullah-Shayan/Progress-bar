@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(120, 182, 222);
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+}
+#bar{
+    height: 50px;
+    width: 1000px;
+    margin: 400px auto;
+    border: 2px solid black;
+}
+.progress-display{
+    height: 50px;
+    width: 0;
+    background-color: rgb(21, 101, 212);
+    animation: progress 10s linear forwards;
+}
+@keyframes progress{
+    from{
+        width: 0;
+    }
+    to{
+        width: 1000px;
+    }
+}
